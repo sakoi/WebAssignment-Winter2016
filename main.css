@@ -1,0 +1,139 @@
+body, html{
+    margin:0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+
+}
+
+.banner{
+    position: relative;
+    border-bottom: solid darkgray .5em;
+    margin: 0 auto;
+    height:300px;
+    width:100%;
+    overflow: hidden;
+}
+
+.content{
+    margin: 0 3em;
+}
+
+#container {
+    min-height:100%;
+    position:relative;
+}
+
+.pad{
+    margin-top: 1em;
+}
+.center{
+    text-align: center;
+
+}
+
+.table{
+    width: 90%;
+    margin: auto;
+}
+
+h1{
+    margin-bottom: 0;
+}
+p{
+    margin-top: 0;
+    text-indent: 2em;
+}
+
+.format{
+    padding-left: 1em;
+    width: 85%;
+}
+
+.inside{
+    padding-left: 3em;
+}
+ul{
+    padding: 0;
+    padding-left: 1em;
+}
+h2{
+    text-align: center;
+    padding-top: 3em;
+}
+
+h3{
+    text-align: center;
+}
+
+.login:hover{
+    border: #666 solid .5em;
+}
+
+.register:hover{
+    border: #666 solid .5em;
+}
+
+.row{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 200px;
+    width: 100%;
+}
+
+.padding{
+    padding-bottom: 5em;
+}
+
+.login{
+    border-radius: 50%;
+    border: solid darkgray .5em;
+    opacity: 1;
+}
+
+.profile{
+    border-radius: 50%;
+    border: solid darkgray .25em;
+    float: left;
+    margin-right: 3em;
+    width: 15%;
+    height: 15%;
+}
+
+.register{
+    border-radius: 50%;
+    border: solid darkgray .5em;
+}
+
+.box{
+    display: inline-block;
+    width: 450px;
+    height: auto;
+    margin: 0em;
+}
+.nav {
+    margin:0;
+    margin-bottom: 0;
+}
+
+.right{
+    margin-left: 9em;
+}
+
+.left{
+    margin-right: 10em;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom:0;
+    left: 0;
+    height: 2em;
+    background-color:#666;
+    color: #fff;
+    text-align: center;
+}
